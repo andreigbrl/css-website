@@ -17,7 +17,9 @@
     font-family: 'Roboto';
     font-weight: normal;
 }
-
+body {
+    margin: 0px;
+}
 header, footer, #intro-container {
     background-color: #1F2937;
 }
@@ -33,6 +35,11 @@ header, footer, #intro-container {
     font-size: 18px;
     color: #E5E7EB;
 }
+nav {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
 #info-sct-heading {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -42,12 +49,12 @@ header, footer, #intro-container {
     text-align: center;
 }
 #quote-sct {
-    padding-top: 100px;
-    padding-bottom: 40px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     background-color: #E5E7EB;
     height: 250px;
 }
-#quote-txt {
+blockquote {
     font-size: 36px;
     font-weight: 100;
     color:#1F2937;
